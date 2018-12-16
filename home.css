@@ -8,8 +8,6 @@ body{
 	background-color: white;
 }
 
-/*menu*/
-
 .menu{
 	display: block;
 	position: relative;
@@ -39,7 +37,40 @@ body{
 	border-radius: 10px;
 }
 
+.container body {
+	margin: 0px auto;
+	width: 100%;
+}
+
+.left-side{
+	width: 50%;
+	display: inline-block;
+
+}
+
+.left-side img{
+	display: block;
+	width: 60%;
+	margin: 20% auto;
+	border-radius: 50%;
+}
+
+.right-side{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	text-align: center;
+	font-family: Nunito, Sans-serif;
+	color: #f20505;
+}
+
+.right-side p {
+	display: block;
+	margin: 20% auto;
+}
+
 /*footer*/
+
 footer{
 	position: relative;
 	bottom: 0;
@@ -50,7 +81,8 @@ footer{
 	padding: 30px;
 }
 
-.copyright p{
-	color: white;
+.social-media img {
+  display: inline-block;
+  max-width: 2.2rem;
+  padding: 0rem 0.2rem;
 }
-
